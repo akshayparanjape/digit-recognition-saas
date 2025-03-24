@@ -1,0 +1,9 @@
+Below is an example end-to-end GitHub-style project structure and all the code files you might include to deploy and run a Kubernetes-based SaaS with three microservices:
+
+Trainer microservice (training an MNIST digit classifier).
+
+Inference microservice (hosting the trained model and exposing inference via REST).
+
+Monitor microservice (analyzing predictions/results and suggesting re-training if necessary).
+
+We use Kind to set up a local Kubernetes cluster for development, Helm charts for deployments, Docker for containerization, K9s to visually manage the cluster, and a simple Python-based client script to test the APIs. We’ll also provide a Makefile and some scripts to automate installation, testing, and usage.

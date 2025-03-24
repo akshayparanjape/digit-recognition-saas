@@ -1,0 +1,4 @@
+apiVersion: v2
+name: trainer
+description: Helm chart for MNIST trainer microservice
+version: 0.1.0

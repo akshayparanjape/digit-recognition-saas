@@ -1,0 +1,4 @@
+apiVersion: v2
+name: monitor
+description: Helm chart for MNIST monitor microservice
+version: 0.1.0

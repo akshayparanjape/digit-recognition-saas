@@ -1,0 +1,4 @@
+apiVersion: v2
+name: inference
+description: Helm chart for MNIST inference microservice
+version: 0.1.0
