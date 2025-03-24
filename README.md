@@ -16,9 +16,6 @@ This repository demonstrates three Kubernetes microservices deployed using Helm 
 - Bash shell (for running the scripts)
 - Python 3.8+ (only if you want to run local client scripts; the containers embed Python for the services)
 
-## Usage
+## Step-by-step guide to install
 
-1. **Install Developer Environment Tools (optional)**:
-   ```bash
-   cd k8s-microservices-mnist
-   ./scripts/install_dev_env.sh
+TODO
